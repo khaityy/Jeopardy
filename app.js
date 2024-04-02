@@ -1,0 +1,26 @@
+//    CONSTANTS
+
+
+
+
+
+//    VARIABLES
+
+
+
+
+
+//    EVENT LISTENERS
+
+
+
+// INIT AND RENDER FUCNTIONS
+
+
+
+
+// RESETS AND UPDATES
+
+
+
+// INVOKE RENDER FUNCTION

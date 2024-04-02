@@ -1,0 +1,56 @@
+head {
+background-color: #240f9c;
+/* Use a system font, if none are available use an available sans-sarif   font */
+font-family: "Proxima Nova", sans-serif;
+margin: 0;
+height: 120vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+
+body {
+  background-color: #240f9c;
+/* Use a system font, if none are available use an available sans-sarif   font */
+font-family: "Proxima Nova", sans-serif;
+margin: 0;
+height: 120vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+title {
+  font-family: "Proxima Nova", sans-serif;
+  text-align: center;
+  font-size: 25px;
+}
+
+h1 {
+  font-family: "Proxima Nova", sans-serif;
+  text-align: center;
+  font-size: 12px;
+}
+
+.input-container {
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+  margin-top: 45px;
+}
+
+.input-container input[type="text"] {
+  width: 250px;
+  height: 45px;
+  padding: 15px;
+  border: 1px solid;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.input-container button:hover {
+  background-color: rgb(121, 159, 246);
+}
