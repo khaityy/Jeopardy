@@ -5,12 +5,14 @@ const category2 = ["sq5", "sq6", "sq7", "sq8", "sq9"]
 const category3 = ["sq10", "sq11", "sq12", "sq13", "sq14"]
 const category4 = ["sq15", "sq16", "sq17", "sq18", "sq19"]
 const category5 = ["sq20", "sq21", "sq22", "sq23", "sq24"]
+const categories = [category1, category2, category3, category4, category5]
+
 
 function selectQuestions(categories) {
   const selectedQuestions = [];
   categories.forEach(category => {
-    const randomIndex = Math.floor(Math.random() * category.questions.length);
-    selectedQuestions.push(category.questions[randomIndex]);
+    const randomIndex = Math.floor(Math.random() * categories.length);
+    selectedQuestions.push(categories[randomIndex]);
   });
 return selectedQuestions;
 }
