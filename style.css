@@ -45,6 +45,6 @@ section.game-board {
   grid-template-columns: repeat(5, 15vmin);
   grid-gap: 5vmin;
   padding: 25px;
-  background-color: antiquewhite;
+  background-color: rgb(76, 76, 244);
   justify-content: center
   }
