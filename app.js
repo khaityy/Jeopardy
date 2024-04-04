@@ -2,7 +2,8 @@
 const user1 = "placeholder"
 const submitBtn = document.querySelector('button')
 const squareEls = document.querySelector("sqr")
-const
+const categories = ['Category 1', 'Category 2', 'Category 3', 'Category 4', 'Category 5']
+const 
 
 //    VARIABLES
 let player = user1
