@@ -1,5 +1,5 @@
 //    CONSTANTS
-const questionPlacement = document.querySelector("question")
+const questionPlacement = document.querySelector("question.value")
 const category1 = ["question100", "question200", "question300", "question400", "question500"]
 const category2 = ["question600", "question700", "question800", "question900", "question1000"]
 const category3 = ["question1001", "question1002", "question1003", "question1004", "question1005"]

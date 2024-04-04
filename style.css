@@ -39,12 +39,11 @@ h1 {
   font-size: 70px;
 }
 
-.question-container {
+/* .category-placer {
   padding: 10px;
   text-align: center;
   font-size: 25px;
-
-}
+} */
 
 section.game-board {
   display: grid;
