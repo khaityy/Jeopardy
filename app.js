@@ -56,11 +56,17 @@ const categories = [
 
 function selectQuestions(categories) {
   const selectedQuestions = [];
-  categories
+  categories.forEach(category => {
+    const randomIndex = Math.floor(Math.random() * category.questions.length);
+    selectedQuestions.push(category.questions[randomIndex]);
+  });
+return selectedQuestions;
 }
 
 
-
+function displayQuestion(question) {
+  const questionContainer = document.getElementById()
+}
 
 
 
