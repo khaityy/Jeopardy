@@ -21,7 +21,7 @@ const categories = [
     { question400: "What is the name of the show depicting the life of someone living in the Bikini Bottom?", answer: "What is Spongebob Squarepants"},
     { question500: "What is the longest running cartoon TV show that seems to predict the future?", answer: "What is The Simpsons?"}
     ]
-  }
+  },
 
   { category3: "Live TV Debacles",
   questions: [
@@ -31,7 +31,7 @@ const categories = [
     { question400: "Who tripped live on their way to accept their Academy Award back in 2013?", answer: "Who is Jennifer Lawrence"},
     { question500: "Who jumped on and T-Bagged a fan live on television while trying to reach another part of the stage at an award show?", answer: "Who is Miguel"}
     ]
-  }
+  },
 
   { category4: "NBA, NFL, and MLB",
   questions: [
@@ -41,7 +41,7 @@ const categories = [
     { question400: "What is the name of the football team that unknowingly had a murderer play on the same team as Tom Brady?", answer: "Who are the Patriots?"},
     { question500: "What are the names of the NBA teams who participated in the 'Malice at the Palace' fight?", answer: "Who are the Indiana Pacers and the Detroit Pistons"}
     ]
-  }
+  },
 
   { category5: "Music and Hollywood",
   questions: [
@@ -49,9 +49,12 @@ const categories = [
     { question200: "Who made the hit song Wake me Up Before you Go-Go?", answer: "Who is WHAM!"},
     { question300: "What is the name of the award show meant to acknowledge artists and singers for their discography in the past year?", answer: "What are the Grammy Awards"},
     { question400: "What is the name of the town infamous for shining a spotlight on future legends in the music industry?", answer: "What is "},
-    { question500: "", answer: ""}
+    { question500: "Who has the most entries into the Billboard top 100?", answer: "Who is Drake"}
     ]
   }
+];
+
+
 
 
 
