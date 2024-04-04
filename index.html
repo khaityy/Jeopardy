@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
 	<script defer src="app.js">
   const categories = [
-    { category1: "American Idol Fandom🎤",
+    { cat1: "American Idol Fandom🎤",
       questions: [
         { question100: "Who is the first American Idol contestant to win the show?", answer100: "What is Kelly Clarkson"},
         { question200: "Who is the judge that has been apart of the most seasons for American Idol?", answer200: "What is Simon Cowell"},
@@ -18,7 +18,7 @@
         ]
       },
     
-    { category2: "How well do you know your toons?",
+    { cat2: "How well do you know your toons?",
       questions: [
         { question600: "Who is the duo of two animals who have human adventures, with most of the episodes ending in one's failure in something?", answer600: "What is Tom and Jerry"},
         { question700: "What is the name of the show that features Elmer Fudd?", answer700: "What is Looney Tunes"},
@@ -28,7 +28,7 @@
         ]
       },
     
-      { category3: "Live 📺 Debacles",
+      { cat3: "Live 📺 Debacles",
       questions: [
         { question1001: "Who is infamous for causing Janet Jackson to have a wardrobe malfunction at the Super Bowl?", answer1001: "Who is Justin Timberlake"},
         { question1002: "Who is the artist that took the microphone from Taylor Swift to say Beyonce deserved the award more?", answer1002: "Who is Kanye West"},
@@ -38,7 +38,7 @@
         ]
       },
     
-      { category4: "NBA, NFL, and MLB",
+      { cat4: "NBA, NFL, and MLB",
       questions: [
         { question1006: "Who is the most recent winner of the Super Bowl?", answer1006: "Who are the Kansas City Chiefs?"},
         { question1007: "Who is the most recent MVP for the National Basketball Association?", answer1007: "Who is Nikola Jokic"},
@@ -48,7 +48,7 @@
         ]
       },
     
-      { category5: "🎶 and Hollywood",
+      { cat5: "🎶 and Hollywood",
       questions: [
         { question2001: "Who is the King of Pop that made the hit songs Thriller and Billie Jean?", answer2001: "Who is Michael Jackson"},
         { question2002: "Who made the hit song Wake me Up Before you Go-Go?", answer2002: "Who is WHAM!"},
@@ -85,11 +85,11 @@ selectedQuestions.forEach(question => {
 </head>
 <body>
     <section class="game-board">
-      <div id="category-placer1">American Idol🎤</div>
-      <div id="category-placer2">How well do you know your Toons??</div>
-      <div id="category-placer3">Live 📺 Debacles</div>
-      <div id="category-placer4">NBA, NFL, and MLB</div>
-      <div id="category-placer5">🎶 & Hollywood</div>
+      <div id="category" onclick="showQuestions(cat1)">American Idol🎤</div>
+      <div id="category" onclick="showQuestions(cat2)">How well do you know your Toons??</div>
+      <div id="category" onclick="showQuestions(cat3)">Live 📺 Debacles</div>
+      <div id="category" onclick="showQuestions(cat4)">NBA, NFL, and MLB</div>
+      <div id="category" onclick="showQuestions(cat5)">🎶 & Hollywood</div>
 		<div class="quest" id="sq0">$100</div>
 		<div class="quest" id="sq1">$200</div>
 		<div class="quest" id="sq2">$300</div>

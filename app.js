@@ -1,16 +1,18 @@
 //    CONSTANTS
 const questionPlacement = document.querySelector("quest")
-const category1 = ["sq0", "sq1", "sq2", "sq3", "sq4"]
-const category2 = ["sq5", "sq6", "sq7", "sq8", "sq9"]
-const category3 = ["sq10", "sq11", "sq12", "sq13", "sq14"]
-const category4 = ["sq15", "sq16", "sq17", "sq18", "sq19"]
-const category5 = ["sq20", "sq21", "sq22", "sq23", "sq24"]
-const categories = [category1, category2, category3, category4, category5]
+const cat1 = ["sq0", "sq1", "sq2", "sq3", "sq4"]
+const cat2 = ["sq5", "sq6", "sq7", "sq8", "sq9"]
+const cat3 = ["sq10", "sq11", "sq12", "sq13", "sq14"]
+const cat4 = ["sq15", "sq16", "sq17", "sq18", "sq19"]
+const cat5 = ["sq20", "sq21", "sq22", "sq23", "sq24"]
+const categories = [cat1, cat2, cat3, cat4, cat5]
+const questions = [question100, ]
+
 
 
 function selectQuestions(categories) {
   const selectedQuestions = [];
-  categories.forEach(category => {
+  categories.forEach(cat => {
     const randomIndex = Math.floor(Math.random() * categories.length);
     selectedQuestions.push(categories[randomIndex]);
   });
