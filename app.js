@@ -1,7 +1,7 @@
 //    CONSTANTS
 const user1 = "placeholder"
 const submitBtn = document.querySelector('button')
-const squareEls = document.querySelector("sqr")
+const questonEls = document.querySelector("question")
 const categories = [
 { category1: "American Idol Fandom",
   questions: [
@@ -68,7 +68,10 @@ function displayQuestion(question) {
   const questionContainer = document.getElementById()
 }
 
-
+questionEls.forEach("sq" => {
+  questionsEls.addEventListener('click', handleClick)
+})
+resetBtn.addEventListener('click', init)
 
 
 
@@ -110,7 +113,7 @@ function displayQuestion(question) {
 
 
 //    EVENT LISTENER
-submitBtn.addEventListener('click', handleClick)
+// submitBtn.addEventListener('click', handleClick)
 // function handleClick(event) {
 //   if (event.target.id === '${$100}') {
 //   likesCount = likesCount + 1
@@ -138,13 +141,6 @@ function generateBoard() {
   questionDiv.addEventListener('click', () => displayQuestion(i, j));
   categoryDiv.appendChild(questionDiv);
   }
-
-
-
-
-
-
-
 }
 }
 
