@@ -39,6 +39,13 @@ h1 {
   font-size: 70px;
 }
 
+.question-container {
+  padding: 10px;
+  text-align: center;
+  font-size: 15px;
+
+}
+
 section.game-board {
   display: grid;
   grid-template-rows: repeat(5, 10vmin);
