@@ -54,6 +54,9 @@ const categories = [
   }
 ];
 
+function displayQuestion(question) {
+  const questionContainer = document.getElementById('')
+}
 
 
 
@@ -63,15 +66,6 @@ const categories = [
 
 
 
-
-
-
-
-
-
-
-
-['Category 1', 'Category 2', 'Category 3', 'Category 4', 'Category 5']
 
 
 
@@ -125,7 +119,7 @@ function generateBoard() {
   categoryDiv.appendChild(questionDiv);
   }
 
-  // function displayQuestion()
+
 
 
 
