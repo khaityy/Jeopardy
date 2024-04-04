@@ -2,22 +2,48 @@
 const user1 = "placeholder"
 const submitBtn = document.querySelector('button')
 const squareEls = document.querySelector("sqr")
-// const categories = [
-{ name: 'American Idol Fandom,
+const categories = [
+{ category1: "American Idol Fandom",
   questions: [
-    { question: "Who is the first American Idol contestant to win the show?' },
-    { question: "Who is the judge that has been apart of the most seasons for American Idol?"},
-    { question: ''}
+    { question100: "Who is the first American Idol contestant to win the show?", answer: "What is Kelly Clarkson"},
+    { question200: "Who is the judge that has been apart of the most seasons for American Idol?", answer: "What is Simon Cowell"},
+    { question300: "Who is the country singer who won in Season 4 that now is Top 5 for most country songs to land on the Billboard", answer: "What is Carrie Underwood"},
+    { question400: "How many total seasons of American Idol are there? Including the newest one?", answer: "What is 22"},
+    { question500: "Who is the trio to be the first American Idol judges for the show?", answer: "What is Simon Cowell, Randy Jackson, and Paula Abdul"},
+    ]
+  },
+
+{ category2: "How well do you know your toons?",
+  questions: [
+    { question100: "Who is the duo of two animals who have human adventures, with most of the episodes ending in one's failure in something?", answer: "What is Tom and Jerry"},
+    { question200: "What is the name of the show that features Elmer Fudd?", answer: "What is Looney Tunes"},
+    { question300: "Who is the duo that merged two animals together to make the hit show in the 90s?", answer: "What is CatDog"},
+    { question400: "What is the name of the show depicting the life of someone living in the Bikini Bottom?", answer: "What is Spongebob Squarepants"},
+    { question500: "What is the longest running cartoon TV show that seems to predict the future?", answer: "What is The Simpsons?"}
+    ]
+  }
+
+  { category3: "Live TV Debacles",
+  questions: [
+    { question100: "Who is infamous for causing Janet Jackson to have a wardrobe malfunction at the Super Bowl?", answer: "Who is Justin Timberlake"},
+    { question200: "", answer: "What is Looney Tunes"},
+    { question300: "Who is the duo that merged two animals together to make the hit show in the 90s?", answer: "What is CatDog"},
+    { question400: "What is the name of the show depicting the life of someone living in the Bikini Bottom?", answer: "What is Spongebob Squarepants"},
+    { question500: "What is the longest running cartoon TV show that seems to predict the future?", answer: "What is The Simpsons?"}
+    ]
+  }
 
 
 
-  ]
 
 
 
-}
 
-]
+
+
+
+
+
 
 
 
@@ -76,7 +102,7 @@ function generateBoard() {
   categoryDiv.appendChild(questionDiv);
   }
 
-  function displayQuestion()
+  // function displayQuestion()
 
 
 
