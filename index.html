@@ -8,37 +8,17 @@
     <link rel="stylesheet" href="style.css">
 	<script defer src="app.js">
   
-    function selectQuestions(categories) {
-  const selectedQuestions = [];
-  categories.forEach(category => {
-    const randomIndex = Math.floor(Math.random() * categories.length);
-    selectedQuestions.push(categories[randomIndex]);
-  });
-return selectedQuestions;
-}
-
-
-function displayQuestion(question) {
-  const questionPlacement = document.getElementById('question-placer');
-  questionPlacement.innerHTML += `<p><strong>Category:</strong>${question.question}</p>`;
-}
-
-const selectedQuestions = selectQuestions(categories);
-selectedQuestions.forEach(question => {
-  displayQuestion(question);
-});
-
     </script>
     <title>Jeopardy!!</title>
     <h1>Jeopardy!!</h1>
 </head>
 <body>
     <section class="game-board">
-      <div id="category" onclick="showQuestions(cat1)">American Idol🎤</div>
-      <div id="category" onclick="showQuestions(cat2)">How well do you know your Toons??</div>
-      <div id="category" onclick="showQuestions(cat3)">Live 📺 Debacles</div>
-      <div id="category" onclick="showQuestions(cat4)">NBA, NFL, and MLB</div>
-      <div id="category" onclick="showQuestions(cat5)">🎶 & Hollywood</div>
+      <div id="category" onclick="showQuestions(1)">American Idol🎤</div>
+      <div id="category" onclick="showQuestions(2)">How well do you know your Toons??</div>
+      <div id="category" onclick="showQuestions(3)">Live 📺 Debacles</div>
+      <div id="category" onclick="showQuestions(4)">NBA, NFL, and MLB</div>
+      <div id="category" onclick="showQuestions(5)">🎶 & Hollywood</div>
 		<div class="quest" id="sq0">$100</div>
 		<div class="quest" id="sq1">$200</div>
 		<div class="quest" id="sq2">$300</div>
