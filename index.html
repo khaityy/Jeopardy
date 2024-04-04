@@ -58,6 +58,27 @@
         ]
       }
     ];
+
+    function selectQuestions(categories) {
+  const selectedQuestions = [];
+  categories.forEach(category => {
+    const randomIndex = Math.floor(Math.random() * categories.length);
+    selectedQuestions.push(categories[randomIndex]);
+  });
+return selectedQuestions;
+}
+
+
+function displayQuestion(question) {
+  const questionPlacement = document.getElementById('question-placer');
+  questionPlacement.innerHTML += `<p><strong>Category:</strong>${question.question}</p>`;
+}
+
+const selectedQuestions = selectQuestions(categories);
+selectedQuestions.forEach(question => {
+  displayQuestion(question);
+});
+
     </script>
     <title>Jeopardy!!</title>
     <h1>Jeopardy!!</h1>
