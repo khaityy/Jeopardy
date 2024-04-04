@@ -56,7 +56,7 @@ const categories = [
 
 function selectQuestions(categories) {
   const selectedQuestions = [];
-  
+  categories
 }
 
 
