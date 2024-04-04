@@ -23,7 +23,13 @@ function generateBoard() {
   for (let i = 0; i < categories.length; i++) {
     const categoryDiv = document.createElement('div');
     categoryDiv.classList.add('category');
+    categoryDiv.textContent = categories[i];
+    gameBoard.appendChild(categoryDiv);
 
+  for (let j = 0; i < questions[i].length; j++) {
+  const questionDiv = document.createElement('div');
+  questionDiv.classList.add('question');
+  questionDiv.textContent = `$${(j+1)*100}`;
 
 
 
