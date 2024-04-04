@@ -19,9 +19,10 @@ submitBtn.addEventListener('click', handleClick)
 
 // INIT AND RENDER FUCNTIONS
 function generateBoard() {
-  const gameBoard = document.getElementById('game-board')
-  for (let i )
-
+  const gameBoard = document.getElementById('game-board');
+  for (let i = 0; i < categories.length; i++) {
+    const categoryDiv = document.createElement('div');
+    categoryDiv.classList.add('category');
 
 
 
