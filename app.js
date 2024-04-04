@@ -30,6 +30,11 @@ function generateBoard() {
   const questionDiv = document.createElement('div');
   questionDiv.classList.add('question');
   questionDiv.textContent = `$${(j+1)*100}`;
+  questionDiv.addEventListener('click', () => displayQuestion(i, j));
+  categoryDiv.appendChild(questionDiv);
+  }
+
+  function displ
 
 
 
