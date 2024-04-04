@@ -1,10 +1,10 @@
 //    CONSTANTS
-const questionPlacement = document.querySelector("question.value")
-const category1 = ["question100", "question200", "question300", "question400", "question500"]
-const category2 = ["question600", "question700", "question800", "question900", "question1000"]
-const category3 = ["question1001", "question1002", "question1003", "question1004", "question1005"]
-const category4 = ["question1006", "question1007", "question1008", "question1009", "question1010"]
-const category5 = ["question2001", "question2002", "question2003", "question2004", "question2005"]
+const questionPlacement = document.querySelector("quest")
+const category1 = ["sq0", "sq1", "sq2", "sq3", "sq4"]
+const category2 = ["sq5", "sq6", "sq7", "sq8", "sq9"]
+const category3 = ["sq10", "sq11", "sq12", "sq13", "sq14"]
+const category4 = ["sq15", "sq16", "sq17", "sq18", "sq19"]
+const category5 = ["sq20", "sq21", "sq22", "sq23", "sq24"]
 
 function selectQuestions(categories) {
   const selectedQuestions = [];
