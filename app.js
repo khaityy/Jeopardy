@@ -9,12 +9,21 @@ const questions = ['Question 1', 'Question 2', 'Question 3', 'Question 4', 'Ques
 
 //    VARIABLES
 let player = user1
-let squareEls
+let Cat1, Ques1 = 'sqr0'
 
 
 
 //    EVENT LISTENER
 submitBtn.addEventListener('click', handleClick)
+// function handleClick(event) {
+//   if (event.target.id === '${$100}') {
+//   likesCount = likesCount + 1
+//   likeButtonElement.textContent = `${likesCount} like(s). Like this post!`
+//   } else {
+//     dislikesCount = dislikesCount + 1
+//   dislikeButtonElement.textContent = `${dislikesCount} like(s). Like this post!`
+//   }
+// }
 
 
 // INIT AND RENDER FUCNTIONS
@@ -34,13 +43,13 @@ function generateBoard() {
   categoryDiv.appendChild(questionDiv);
   }
 
-  function displ
+  function displayQuestion()
 
 
 
 
 }
-
+}
 
 
 // RESETS AND UPDATES

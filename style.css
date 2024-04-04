@@ -3,7 +3,7 @@ background-color: #240f9c;
 /* Use a system font, if none are available use an available sans-sarif   font */
 font-family: "Proxima Nova", sans-serif;
 margin: 0;
-height: 120vh;
+height: 25vh;
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -32,7 +32,7 @@ title {
 h1 {
   font-family: "Proxima Nova", sans-serif;
   text-align: center;
-  font-size: 12px;
+  font-size: 125px;
 }
 
 .input-container {
