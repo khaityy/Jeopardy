@@ -2,8 +2,12 @@
 const user1 = "placeholder"
 const submitBtn = document.querySelector('button')
 const questionPlacement = document.querySelector("question")
-const category1 = "American Idol Fandom🎤"
-const category2 = "How well do you"
+const category1 = [question100, question200, question300, question400, question500]
+const category2 = [question600, question700, question800, question900, question1000]
+const category3 = [question1001, question1002, question1003, question1004, question1005]
+const category4 = [question1006, question1007, question1008, question1009, question1010]
+const category5 = [question2001, question2002, question2003, question2004, question2005]
+
 
 function selectQuestions(categories) {
   const selectedQuestions = [];
