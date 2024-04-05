@@ -10,6 +10,11 @@ Software Used:
 - HTML
 - Git
 
+Attributions:
+- google.com (for data)
+- wikipeida.com (for data)
+
+
 Recent changes:
 - Changed HTML properties
 - CSS and Javascript format changes
