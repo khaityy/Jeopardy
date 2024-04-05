@@ -24,9 +24,53 @@ make.questTextElement = element.querySelector(".quest-text");
 make.answerTextElement = element.querySelector(".answer_right-answer");
 make.answerElement = element.querySelector(".answer");
 make.rightAnswerElement = element.querySelector(".answer_right");
-make.wrongAnswerElement = element.querySelector(".answer_wrong");
+make.wrongAnswerElement = element.querySelector(".answer_wrong")
 
 
+newScore(update)
+  make.scoreElement.textContent = make.score;
+  make.score += update;
+
+
+fetchCategories() 
+  const categories = make.QuestionIds.map(questionId => {
+    return new Promise((resolve, reject) => {
+      fetch(`${questionId}`)
+      .then(response => response.json()).then(data => {
+        resolve(data)
+      })
+    })
+})
+
+
+Promise.all(categories).then(results => {
+  results.forEach(category, categoryIndex) => {
+    
+    let newCategory = {
+      title: category.title,
+      answers: []
+    }
+
+    let answers = result.answers.forEach((answer, index) => {
+      let answerId = categoryIndex + "-" + index;
+      newCategory.answers.push(answerId);
+      make.answers[answerId] = {
+        value: (index + 1) * 100,
+        quest: answer.quest,
+        answer: answer.answer
+      }
+    })
+  };
+
+  make.categories.push(newCategory);
+console.log(make)
+
+
+
+initGamePlay() {
+  make.newScore(0);
+  make.useCategories();
+}
 
 
 
