@@ -4,10 +4,10 @@ This game is inspired by my want to add pieces of my music into a playable game 
 http://localhost:5502/
 
 Software Used:
-CSS
-JavaScript
-HTML
-Git
+- CSS
+- JavaScript
+- HTML
+- Git
 
 Recent changes:
 - Changed HTML properties
