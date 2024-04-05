@@ -1,33 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-  <div class="Game"></div>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-	<script defer src="app.js"></script>
-    <title>Khai's Game</title>
-    <h1>Jeopardy!!</h1>
-    <p class="score">Score<span class="score-number"></span></p>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jeopardy</title>
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-<div class="game-board">
-</div>
-<div class="game-square">
-  <div class="game-square-inner">
-    <h2 class="quest-text"></h2>
-    <input name="player" type="text" />
-    <button type="submit">Submit</button>
-      <div class="answer">
-        <p class="answer_right">your answer is RIGHT!</p>
-        <p class="answer_wrong">your answer is WRONG.. unfortunately!</p>
-        <p class="answer_right-answer">
-          The answer for this is <span class="answer_right-answer-text"></span>
-        </p>
+  <h1>JEOPARDY!</h1>
+  <div id="game"></div>
+    <div class="genre-column">
+      <div class="genre-title">American Idol Fandom🎤</div>
+      <div class="card" data-question="Who is the first American Idol contestant to win the show?"></div>
       </div>
-    </div>
-  </div>
-</div>
+      <div class="genre-column">
+        <div class="genre-title">How well do you know your toons?</div>
+        </div>
+        <div class="genre-column">
+          <div class="genre-title">Live 📺 Debacles</div>
+          </div>
+          <div class="genre-column">
+            <div class="genre-title">NBA, NFL, and MLB</div>
+            </div>
+    <div class="genre-column">
+        <div class="genre-title">🎶 and Hollywood</div>
+            </div>
+
+  <h2>SCORE : <span id="score"></span> </h2>
+
+  <script src="./js/app.js"></script>
+</body>
+</html>
   
 
 
