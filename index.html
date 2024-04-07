@@ -4,66 +4,22 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Jeopardy</title>
-  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <h1>JEOPARDY!</h1>
   <div id="game"></div>
-    <div class="genre-column">
-      <div class="genre-title">American Idol Fandom🎤</div>
-      <div class="card" data-question="Who is the first American Idol contestant to win the show?"></div>
-      </div>
-      <div class="genre-column">
-        <div class="genre-title">How well do you know your toons?</div>
-        </div>
-        <div class="genre-column">
-          <div class="genre-title">Live 📺 Debacles</div>
-          </div>
-          <div class="genre-column">
-            <div class="genre-title">NBA, NFL, and MLB</div>
-            </div>
-    <div class="genre-column">
-        <div class="genre-title">🎶 and Hollywood</div>
-            </div>
-
-  <h2>SCORE : <span id="score"></span> </h2>
-
-  <script src="./js/app.js"></script>
-</body>
-</html>
-  
-
-
-  <!-- <section class="game-board">
-      <div id="category" onclick="showQuestions(1)">American Idol🎤</div>
-      <div id="category" onclick="showQuestions(2)">How well do you know your Toons??</div>
-      <div id="category" onclick="showQuestions(3)">Live 📺 Debacles</div>
-      <div id="category" onclick="showQuestions(4)">NBA, NFL, and MLB</div>
-      <div id="category" onclick="showQuestions(5)">🎶 & Hollywood</div>
-		<div class="quest" id="sq0">$100</div>
-		<div class="quest" id="sq1">$200</div>
-		<div class="quest" id="sq2">$300</div>
-		<div class="quest" id="sq3">$400</div>
-		<div class="quest" id="sq4">$500</div>
-		<div class="quest" id="sq5">$100</div>
-		<div class="quest" id="sq6">$200</div>
-		<div class="quest" id="sq7">$300</div>
-		<div class="quest" id="sq8">$400</div>
-        <div class="quest" id="sq9">$500</div>
-        <div class="quest" id="sq10">$100</div>
-        <div class="quest" id="sq11">$200</div>
-        <div class="quest" id="sq12">$300</div>
-        <div class="quest" id="sq13">$400</div>
-        <div class="quest" id="sq14">$500</div>
-        <div class="quest" id="sq15">$100</div>
-        <div class="quest" id="sq16">$200</div>
-        <div class="quest" id="sq17">$300</div>
-        <div class="quest" id="sq18">$400</div>
-        <div class="quest" id="sq19">$500</div>
-        <div class="quest" id="sq20">$100</div>
-        <div class="quest" id="sq21">$200</div>
-        <div class="quest" id="sq22">$300</div>
-        <div class="quest" id="sq23">$400</div>
-        <div class="quest" id="sq24">$500</div> -->!
+    <div class="board" id="board"></div>
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+  <h2 id="modal-question"></h2>
+  <p id="modal-answer" style="display: none;">Correct Answer: <span id="answer-text"></span></p>
+  <input type="text" id="answer" placeholder="Type your answer here..">
+  <button id="submit">Submit</button>
+  <p id="result"></p>
+  </div>
+</div>
+  <script src="app.js"></script>
 </body>
 </html>
