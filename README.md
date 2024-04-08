@@ -11,6 +11,7 @@ Software Used:
 - JavaScript
 - HTML
 - Git
+- Netlify
 
 Attributions:
 - google.com (for data)
