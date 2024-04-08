@@ -8,7 +8,6 @@ document.addEventListener('DOMContentLoaded', function() {
   const answerInput = document.getElementById('answer');
   const submitButton = document.getElementById('submit');
   const resultDisplay = document.getElementById('result');
-  const scoreDisplay = document.getElementById('score');
 
   const categories = [ 
 { 

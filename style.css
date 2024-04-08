@@ -94,11 +94,7 @@ h2 {
   font-size: 25px;
 }
 
-#scoreboard {
-  margin-top: 20px;
-}
 
-#score {
-  font-size: 24px;
-  color: rgba(241, 241, 38, 0.96);
+button {
+  color: rgb(219, 207, 48);
 }
