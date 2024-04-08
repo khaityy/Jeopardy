@@ -48,6 +48,10 @@ h1 {
   shape-margin: 10px;
 }
 
+.square.answered {
+  background-color: gray;
+}
+
 .modal {
   display: none;
   position: fixed;
@@ -88,4 +92,13 @@ h2 {
   color: rgb(232, 214, 135);
   font-weight: bolder;
   font-size: 25px;
+}
+
+#scoreboard {
+  margin-top: 20px;
+}
+
+#score {
+  font-size: 24px;
+  color: rgba(241, 241, 38, 0.96);
 }

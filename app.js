@@ -8,6 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const answerInput = document.getElementById('answer');
   const submitButton = document.getElementById('submit');
   const resultDisplay = document.getElementById('result');
+  const scoreDisplay = document.getElementById('score');
 
   const categories = [ 
 { 
@@ -69,6 +70,7 @@ categories.forEach(category => {
   const categoryName = document.createElement('h2');
   categoryName.textContent = category.name;
   categoryDiv.appendChild(categoryName);
+
 
   category.questions.forEach((question, index) => {
     const square = document.createElement('div');
